@@ -1,0 +1,86 @@
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+body{
+    font-family:'Do Hyeon',sans-serif;
+    background-color: palevioletred;
+    color: black;
+    line-height: 1.5;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4{
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75 rem;
+}
+
+main{
+    min-height: 100vh;
+}
+.container{
+    width :60vw;
+    margin: 5rem 0;
+    max-width: 500px;
+    background:white;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    box-shadow: 5px 10px 18px #9ba4b4;
+}
+.person{
+ display: grid;
+ grid-template-columns: auto 1fr;
+ column-gap: 0.75rem;
+ margin-bottom: 1.5rem;
+ justify-content: center;
+ align-items: center;
+}
+
+.person img{
+    width :75px;
+    height:75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+.Dbutton{
+    display: inline-block;
+    width: 25%;
+    border-color: transparent;
+    background: lightpink;
+    margin: 2 rem auto 0 auto;
+    padding: 0.3rem 0;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: linen;
+    letter-spacing: 1.2 px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Cbutton{
+    display: block;
+    width: 100%;
+    border-color: transparent;
+    background: plum;
+    margin: 2rem auto 0 auto;
+    padding: 0.4rem 0;
+    text-transform: capitalize;
+    font-size:1rem;
+    color: linen;
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
