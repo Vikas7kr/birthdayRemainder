@@ -55,7 +55,7 @@ main{
 
 .Dbutton{
     display: inline-block;
-    width: 25%;
+    width: 40%;
     border-color: transparent;
     background: lightpink;
     margin: 2 rem auto 0 auto;
