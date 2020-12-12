@@ -16,7 +16,7 @@ const removePerson=(id)=>{
                 const {id,name,age,image}=person;
                 return<div key={id} className='person'>
                     <img src={image} alt={name}/>
-                    <h3 style={{textTransform:'capitalize'}}>{name}</h3>
+                    <h3>{name.toUpperCase()}</h3>
                     <h4 style={{fontWeight:'none',color:'gray'}}>{age} years</h4>
                     <button onClick={()=>removePerson(id)} className='Dbutton'>Delete</button>
                 </div>
